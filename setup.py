@@ -12,6 +12,7 @@ setup(
     version=VERSION,
     author="Rohan Kumar Bhoi (Rohan-0707)",
     author_email="<rohanbhoi1546@gmail.com>",
+    autohr_portfolio="https://ceorohan.com",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
@@ -19,11 +20,10 @@ setup(
     install_requires=['os'],
     keywords=['python', 'video', 'stream', 'video stream', 'camera stream', 'sockets'],
     classifiers=[
-        "Development Status :: 1 - Planning",
-        "Intended Audience :: Developers",
+        "Development Status :: 1 - Development",
         "Programming Language :: Python :: 3",
-        "Operating System :: Unix",
-        "Operating System :: MacOS :: MacOS X",
-        "Operating System :: Microsoft :: Windows",
-    ]
+        "Operating System :: OS Independent",
+    ],
+    install_requires=["os"],
+    entry_points={"console_scripts":["RohPy = src.RohPy:execute:menu:install_pkg:divider:user_choice"]},
 )
