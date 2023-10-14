@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RohPy
+Version: 0.0.1
+Summary: A basic package to learn Python with any Interrupt
+Author: Rohan Kumar Bhoi (Rohan-0707)
+Author-email: <rohanbhoi1546@gmail.com>
+Keywords: python,learnin, package installation, learning level, necessary packages
+Classifier: Development Status :: 1 - Development
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A basic Package, which install some of required or necessary libraries as per users learning level of Python ! When user install this package, then they will doesn't need to install external package manually. It will automatically install some of important packages to make learnig easier !
